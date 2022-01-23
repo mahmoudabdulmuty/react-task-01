@@ -1,12 +1,12 @@
 .about {
-	color: #fff;
-	background-color: rgb(244, 98, 58);
+	color: var(--color-white);
+	background-color: var(--color-primary);
 }
 .about .title::after {
-	background-color: #fff;
+	background-color: var(--color-white);
 }
 .about .description {
-	color: rgba(255, 255, 255, 0.75);
+	color: #ffffffbf;
 	width: 52.5%;
 	margin: 1.5rem auto;
 }

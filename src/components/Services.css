@@ -1,5 +1,5 @@
 .services .title::after {
-	background-color: #f4623a;
+	background-color: var(--color-primary);
 }
 .feature-title {
 	font-size: 1.5rem;
@@ -14,5 +14,5 @@
 
 .feature-icon {
 	font-size: 2.5rem;
-	color: rgba(244, 98, 58);
+	color: var(--color-primary);
 }

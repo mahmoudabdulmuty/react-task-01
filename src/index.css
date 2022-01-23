@@ -5,9 +5,9 @@
 	box-sizing: border-box;
 }
 :root {
-	--ff: 'Merriweather', sans-serif;
+	--color-primary: #f4623a;
+	--color-white: #fff;
 }
-
 body {
 	font-family: 'Merriweather Sans', sans-serif;
 	line-height: 1.5;
