@@ -1,0 +1,32 @@
+.about {
+	color: #fff;
+	background-color: rgb(244, 98, 58);
+}
+.about .title::after {
+	background-color: #fff;
+}
+.about .description {
+	color: rgba(255, 255, 255, 0.75);
+	width: 52.5%;
+	margin: 1.5rem auto;
+}
+.about .btn {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1.25rem 2.25rem;
+	font-size: 0.85rem;
+	font-weight: 700;
+	font-family: 'Merriweather Sans';
+	border-radius: 10rem;
+	color: #000;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+	cursor: pointer;
+	transition: 0.15s ease-in-out;
+}
+
+.about .btn:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
+}
